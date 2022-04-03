@@ -1,0 +1,27 @@
+body{
+    color: blue;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+header{
+    grid-area: header;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+.main{
+    display: grid;
+    grid-area: main_content;
+    grid-template-areas: "mappanel" "content";
+}
+
+#map{
+    height:80vh;
+    grid-area: mappanel;
+}
+
+#contents{
+    grid-area: content;
+}
