@@ -1,10 +1,8 @@
 body{
-    display: grid;
-    /* grid-template-columns: 1fr;  */
-    grid-auto-rows: auto 1fr;
-    grid-template-areas: "header" "main_content" "footer";
-    background-color: rgb(188, 231, 152);
-    /* height: 100vh; */
+    color: blue;
+    max-width: 150vh;
+    font-family: Trebuchet MS, sans-serif;
+    background-color: honeydew
 }
 
 header{
@@ -16,17 +14,19 @@ header{
 }
 
 .main{
-    grid-area: main_content;
-    grid-template-areas: "content" "main_map";
+    max-width: 150vh;
     display: grid;
+    grid-area: main_content;
+    grid-template-areas:  "content" "the_map";
     font-family: Trebuchet MS, sans-serif;
-}
-
-#contents{
-    grid-area: content;
 }
 
 #the_map{
     height:80vh;
-    grid-area: main_map;
+    width: 150vh;
+    grid-area: the_map;
+}
+
+#contents{
+    grid-area: content;
 }

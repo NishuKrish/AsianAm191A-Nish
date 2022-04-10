@@ -1,4 +1,3 @@
-
 // JavaScript const variable declaration
 const map = L.map('the_map').setView([34.0709, -118.444], 3); 
 
