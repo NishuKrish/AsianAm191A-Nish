@@ -1,0 +1,33 @@
+body{
+    color: black;
+    max-width: 150vh;
+    font-family: Trebuchet MS, sans-serif;
+    background-color: honeydew;
+    margin-left: 100px;
+}
+
+header{
+    grid-area: header;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+.main{
+    max-width: 150vh;
+    display: grid;
+    grid-area: main_content;
+    grid-template-areas:  "content" "a_map";
+    font-family: Trebuchet MS, sans-serif;
+}
+
+#a_map{
+    height:80vh;
+    width: 150vh;
+    grid-area: the_map;
+}
+
+#contents{
+    grid-area: content;
+}
